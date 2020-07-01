@@ -1,0 +1,40 @@
+{
+  "name": "cli-collection",
+  "version": "0.1.0",
+  "description": "A collection of games that can be played directly in the command line interface.",
+  "main": "CLI-Collection.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-hangman": "cd Node-Hangman && npm i && npm run build",
+    "build-conway": "cd Conways-CLIfe && npm i && npm run build",
+    "move": "node tools/mv",
+    "build": "npm run build-hangman && npm run build-conway && npm run move"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Sv443@github.com/Sv443/CLI-Games-Collection.git"
+  },
+  "keywords": [
+    "cli",
+    "game",
+    "cli-game",
+    "collection",
+    "game-collection"
+  ],
+  "author": {
+    "name": "Sv443",
+    "email": "contact@sv443.net",
+    "url": "https://github.com/Sv443"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sv443/CLI-Games-Collection/issues"
+  },
+  "homepage": "https://github.com/Sv443/CLI-Games-Collection#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "keypress": "^0.2.1",
+    "svjsl": "^1.9.4"
+  }
+}

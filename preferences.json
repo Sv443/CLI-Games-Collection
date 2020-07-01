@@ -1,0 +1,6 @@
+{
+    "aliveCellChar": "∙",
+    "deadCellChar": " ",
+    "aliveCellColor": "\u001b[0m",
+    "deadCellColor": "\u001b[0m"
+}

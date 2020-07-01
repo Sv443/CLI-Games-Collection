@@ -2,6 +2,7 @@
   "name": "cli-collection",
   "version": "0.1.0",
   "description": "A collection of games that can be played directly in the command line interface.",
+  "bin": "CLI-Collection.js",
   "main": "CLI-Collection.js",
   "scripts": {
     "start": "node .",
@@ -9,7 +10,8 @@
     "build-hangman": "cd Node-Hangman && npm i && npm run build",
     "build-conway": "cd Conways-CLIfe && npm i && npm run build",
     "move": "node tools/mv",
-    "build": "npm run build-hangman && npm run build-conway && npm run move"
+    "build": "npm run build-hangman && npm run build-conway && npm run move",
+    "postbuild": "pkg . --out-path \"./dist\" && node tools/mv-postbuild"
   },
   "repository": {
     "type": "git",
@@ -36,5 +38,9 @@
     "fs-extra": "^9.0.1",
     "keypress": "^0.2.1",
     "svjsl": "^1.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "pkg": "^4.4.9"
   }
 }

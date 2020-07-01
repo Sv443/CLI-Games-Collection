@@ -1,2 +1,4 @@
 node_modules/
 games/
+dist/
+.env

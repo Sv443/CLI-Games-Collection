@@ -1,0 +1,6 @@
+[submodule "Node-Hangman"]
+	path = Node-Hangman
+	url = https://github.com/Sv443/Node-Hangman
+[submodule "Conways-CLIfe"]
+	path = Conways-CLIfe
+	url = https://github.com/Sv443/Conways-CLIfe

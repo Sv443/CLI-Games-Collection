@@ -1,7 +1,7 @@
 # CLI-Games-Collection
 A collection of games that can be played directly in the command line interface.  
   
-# Download: Coming Soon
+# Bundle download: coming soon
   
 # Featured Games:
 | Name | Description |

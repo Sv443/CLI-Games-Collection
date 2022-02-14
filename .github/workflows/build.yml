@@ -1,6 +1,6 @@
 name: build
 
-on: [push] # runs on every push
+on: [release]
 
 jobs:
   build:
